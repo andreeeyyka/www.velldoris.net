@@ -15705,8 +15705,10 @@ screen and (-ms-high-contrast:active) {
     background-position: 50%;
     background-size: contain
 }
-.fws{
+.salon .header__salon .header__salon--line .header__salon--desktop
+#fws{
     font-weight: 600;
+    color: red;
 }
 .salon__title {
     display: block;
@@ -15719,7 +15721,7 @@ screen and (-ms-high-contrast:active) {
     display: block;
     font-weight: 600;
 }
-.salon__address span {
+.salon__address>span {
     font-weight: 600;
 }
 

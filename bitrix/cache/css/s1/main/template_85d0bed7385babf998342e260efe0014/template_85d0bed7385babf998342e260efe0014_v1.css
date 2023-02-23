@@ -15497,7 +15497,8 @@ screen and (-ms-high-contrast:active) {
 .header__salon--line .salon__phone {
     display: inline-block;
     margin-right: 5px;
-    padding-left: 0
+    padding-left: 0;
+    font-weight:600;
 }
 
 .header__salon--desktop,
@@ -15704,7 +15705,9 @@ screen and (-ms-high-contrast:active) {
     background-position: 50%;
     background-size: contain
 }
-
+.fws{
+    font-weight: 600;
+}
 .salon__title {
     display: block;
     margin-bottom: 8px;
@@ -15713,7 +15716,11 @@ screen and (-ms-high-contrast:active) {
 }
 
 .salon__address {
-    display: block
+    display: block;
+    font-weight: 600;
+}
+.salon__address span {
+    font-weight: 600;
 }
 
 .salon__phone a {
@@ -16743,7 +16750,8 @@ screen and (min-width:768px) and (-ms-high-contrast:none) {
         margin-right: 8px
     }
     .salon__address {
-        display: inline
+        display: inline;
+        font-weight: 600;
     }
     .burger-menu {
         scrollbar-width: thin

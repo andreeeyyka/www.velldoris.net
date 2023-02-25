@@ -17822,8 +17822,6 @@ input:checked~.radio__label:after {
 }
 
 .mainscreen {
-    margin-bottom: 48px;
-    padding-bottom: 24px;
     overflow: hidden;
     background-color: #f1f0f0
 }
@@ -21165,9 +21163,7 @@ input:checked~.radio__label:after {
         line-height: 22px
     }
     .mainscreen {
-        margin-bottom: 80px;
-        padding-top: 32px;
-        padding-bottom: 80px
+
     }
     .mainscreen .h1 {
         margin-bottom: 16px
@@ -22842,9 +22838,8 @@ input:checked~.radio__label:after {
         margin-top: 80px
     }
     .mainscreen {
-        margin-bottom: 80px;
-        padding-top: 48px;
-        padding-bottom: 56px
+padding-top: 20px;
+padding-bottom: 20px;
     }
     .mainscreen .h1 {
         margin-bottom: 24px;

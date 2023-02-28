@@ -15600,7 +15600,7 @@ input:checked~.radio__label:after {
         color: #848388
     }
     .slide-menu {
-        top: 190px;
+        top: 140px;
         height: calc(100vh - 144px);
         height: calc(var(--vh, 1vh)*100 - 144px)
     }
@@ -15751,7 +15751,7 @@ input:checked~.radio__label:after {
         width: 18%
     }
     .slide-menu {
-        top: 158px;
+        top: 156px;
         height: calc(100vh - 160px);
         height: calc(var(--vh, 1vh)*100 - 160px)
     }

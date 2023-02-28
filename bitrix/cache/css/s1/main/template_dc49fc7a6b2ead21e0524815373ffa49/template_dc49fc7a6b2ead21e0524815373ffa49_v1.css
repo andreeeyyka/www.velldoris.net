@@ -14465,7 +14465,6 @@ input:checked~.radio__label:after {
 
 .burger-menu {
     height: 100%;
-    overflow: auto;
     padding: 15px 0 24px
 }
 

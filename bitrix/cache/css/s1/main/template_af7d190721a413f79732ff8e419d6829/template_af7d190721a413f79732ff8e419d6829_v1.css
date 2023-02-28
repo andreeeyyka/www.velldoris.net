@@ -15734,7 +15734,6 @@ screen and (-ms-high-contrast:active) {
 
 .burger-menu {
     height: 100%;
-    overflow: auto;
     padding: 15px 0 24px
 }
 

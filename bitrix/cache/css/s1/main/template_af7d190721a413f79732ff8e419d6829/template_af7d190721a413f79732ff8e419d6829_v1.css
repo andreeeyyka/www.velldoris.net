@@ -16887,7 +16887,7 @@ screen and (min-width:768px) and (-ms-high-contrast:none) {
         color: #848388
     }
     .slide-menu {
-        top: 190px;
+        top: 140px;
         height: calc(100vh - 144px);
         height: calc(var(--vh, 1vh)*100 - 144px)
     }

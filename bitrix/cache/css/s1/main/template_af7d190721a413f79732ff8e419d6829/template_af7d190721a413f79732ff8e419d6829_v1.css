@@ -25488,7 +25488,7 @@ screen and (min-width:1280px) and (-ms-high-contrast:none) {
     .about-index__btn {
         font-size: 16px
     }
-    .mainscreen {}
+    .mainscreen {padding-top: 40px;}
     .mainscreen .h1 {
         margin-bottom: 40px;
         font-size: 40px;

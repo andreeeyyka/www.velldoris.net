@@ -15622,10 +15622,10 @@ input:checked~.radio__label:after {
     }
     .burger-nav {
         padding-bottom: 0;
-        padding-top: 64px
+   
     }
     .burger-nav__list {
-        padding-left: 72px
+      
     }
 }
 

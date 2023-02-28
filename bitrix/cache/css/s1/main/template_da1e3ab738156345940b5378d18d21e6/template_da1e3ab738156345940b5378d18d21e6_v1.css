@@ -14465,7 +14465,7 @@ input:checked~.radio__label:after {
 
 .burger-menu {
     height: 100%;
-    overflow: auto;
+   
     padding: 15px 0 24px
 }
 
@@ -15600,7 +15600,7 @@ input:checked~.radio__label:after {
         color: #848388
     }
     .slide-menu {
-        top: 190px;
+        top: 144px;
         height: calc(100vh - 144px);
         height: calc(var(--vh, 1vh)*100 - 144px)
     }

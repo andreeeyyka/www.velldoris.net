@@ -15198,7 +15198,7 @@ input:checked~.radio__label:after {
         font-size: 16px
     }
     .burger-nav {
-        padding: 40px 0
+        /* padding: 40px 0 */
     }
     .burger-nav__item+.burger-nav__item {
         padding-top: 24px
@@ -15621,10 +15621,10 @@ input:checked~.radio__label:after {
     }
     .burger-nav {
         padding-bottom: 0;
-        padding-top: 64px
+        /* padding-top: 64px */
     }
     .burger-nav__list {
-        padding-left: 72px
+        /* padding-left: 72px */
     }
 }
 

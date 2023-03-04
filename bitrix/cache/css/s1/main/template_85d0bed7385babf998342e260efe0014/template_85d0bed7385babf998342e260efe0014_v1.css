@@ -2,10 +2,11 @@
 
 .line-r {
     width: 1px;
-    height: 24px;
+    height: 26px;
     background-color: #848388;
     transform: rotate(26deg);
-    padding: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .socials {

@@ -1,4 +1,16 @@
 /* Start:/local/templates/main/dist/styles/main.css?1675944036219184*/
+.line-r {
+    width: 1px;
+    height: 26px;
+    background-color: #848388;
+    transform: rotate(26deg);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.socials {
+    justify-content: space-between;
+}
 
 .v-select {
     position: relative;

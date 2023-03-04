@@ -14,3 +14,14 @@ function burger() {
         document.querySelector(".catalog-menu").style= 'display:none;'
     }
 }
+function burgermobile() {
+    if (!menuclicked) {
+        menuclicked = true
+        document.querySelector(".header__burger--mobile").style += 'display:block;'
+        
+    } else {
+        menuclicked = false
+        document.querySelector(".header__burger--mobile").style= 'display:none;'
+        
+    }
+}

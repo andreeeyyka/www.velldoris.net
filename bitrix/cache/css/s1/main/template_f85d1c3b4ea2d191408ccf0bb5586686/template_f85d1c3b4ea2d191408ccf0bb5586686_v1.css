@@ -15266,9 +15266,9 @@ input:checked~.radio__label:after {
         top: 48px
     }
     .slide-menu {
-        top: 128px;
+        top: 113px;
         height: calc(100vh - 152px);
-        height: calc(var(--vh, 1vh)*100 - 152px)
+        height: calc(var(--vh, 1vh)*100 - 112px)
     }
     .slide-menu__wrapper {
         padding-bottom: 32px

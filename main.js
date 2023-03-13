@@ -48,7 +48,7 @@ function color(){
         menuclicked = false
         document.querySelector(".cff-color").style = 'max-height:0px;'
     }
-}
+}   
 function styyle(){
     if (!menuclicked) {
         menuclicked = true

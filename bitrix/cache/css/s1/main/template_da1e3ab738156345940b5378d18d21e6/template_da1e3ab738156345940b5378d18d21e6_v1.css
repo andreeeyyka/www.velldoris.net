@@ -15959,7 +15959,7 @@ screen and (-ms-high-contrast:active) {
 
 .slide-menu {
     position: fixed;
-    top: 104px;
+    top: 87px;
     right: 0;
     left: 0;
     z-index: 50;
@@ -16543,9 +16543,9 @@ screen and (-ms-high-contrast:active) {
         top: 48px
     }
     .slide-menu {
-        top: 128px;
+        top: 113px;
         height: calc(100vh - 152px);
-        height: calc(var(--vh, 1vh)*100 - 152px)
+        height: calc(var(--vh, 1vh)*100 - 113px)
     }
     .slide-menu__wrapper {
         padding-bottom: 32px

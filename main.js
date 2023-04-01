@@ -20,11 +20,12 @@ function  status() {
     if (!menuclicked) {
         menuclicked = true
         document.querySelector(".catalog-filter__fields").style += 'max-height: 224px;padding: 15px 10px;'
+        
 
     } else {
         menuclicked = false
         document.querySelector(".catalog-filter__fields").style = 'max-height:0px;padding:0;'
-  
+        
     }
 } 
 

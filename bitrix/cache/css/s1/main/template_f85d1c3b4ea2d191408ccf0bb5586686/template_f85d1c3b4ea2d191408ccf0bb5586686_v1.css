@@ -14687,7 +14687,7 @@ input:checked~.radio__label:after {
 
 .slide-menu {
     position: fixed;
-    top: 131px;
+    /* top: 131px; */
     right: 0;
     left: 0;
     z-index: 50;

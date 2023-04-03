@@ -16492,7 +16492,8 @@ screen and (-ms-high-contrast:active) {
         margin-bottom: 0
     }
     .salon__phone {
-        padding-right: 8px
+        padding-right: 40px;
+        padding-left: 440px;
     }
     .salon__more {
         display: inline-block;

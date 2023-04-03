@@ -77,3 +77,13 @@ function ss(){
 function ssactive( ){
     document.querySelector(".salons__balloon").style="z-index: 1;"
 }
+
+function yofe(){
+    if (!menuclicked) {
+        menuclicked = true
+        document.querySelector(".about-card__opened-block").style = 'padding: 24px 0;visibility:visible; opacity: 1;height: auto;margin-top: 0;'
+    }else{
+        menuclicked= false
+        document.querySelector(".about-card__opened-block").style = 'visibility: hidden;opacity: 0;height: 0;top: -100%; transition: .3s;'
+    }
+}

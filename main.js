@@ -71,4 +71,9 @@ function coating(){
         document.querySelector(".cff-coating").style = 'max-height:0px;'
     }
 }
-
+function ss(){
+    document.querySelector(".salons__balloon").style="z-index: 0;"
+}
+function ssactive( ){
+    document.querySelector(".salons__balloon").style="z-index: 1;"
+}

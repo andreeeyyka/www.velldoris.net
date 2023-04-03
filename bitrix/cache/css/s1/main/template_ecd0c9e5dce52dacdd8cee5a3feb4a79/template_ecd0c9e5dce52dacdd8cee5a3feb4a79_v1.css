@@ -16811,7 +16811,7 @@ a[href]:not[class]:not(.btn):active, a[href]:not[class]:not(.btn):focus, a[href]
     z-index: 0;
     /* z-index0  */
     width: 100%;
-    height: 384px;
+    /* height: 384px; */
     overflow: auto;
     border: 1px solid #d0cdcc;
     background-color: #fff
@@ -17240,7 +17240,7 @@ a[href]:not[class]:not(.btn):active, a[href]:not[class]:not(.btn):focus, a[href]
         line-height: 24px
     }
     .salons__list {
-        height: 504px
+        /* height: 504px */
     }
     .salons__item-link {
         padding: 0 24px 16px
@@ -17404,7 +17404,7 @@ a[href]:not[class]:not(.btn):active, a[href]:not[class]:not(.btn):focus, a[href]
         -ms-flex-direction: column;
         flex-direction: column;
         width: 48%;
-        max-height: 728px;
+        max-height: 360px;
         padding-right: 112px
     }
     .salons__filter-list {
@@ -17500,7 +17500,7 @@ a[href]:not[class]:not(.btn):active, a[href]:not[class]:not(.btn):focus, a[href]
     }
     .salons__filter {
         width: 42%;
-        max-height: 784px;
+        max-height: 360px;
         padding-right: 184px
     }
     .salons__filter-item-link {

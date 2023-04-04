@@ -17062,7 +17062,8 @@ screen and (min-width:768px) and (-ms-high-contrast:none) {
         top: 2px
     }
     .salon__phone {
-        padding-left: 8px
+        padding-right: 40px;
+        padding-left: 560px;
     }
     .catalog-nav__list .catalog-nav__list {
         left: 18%;

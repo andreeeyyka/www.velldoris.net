@@ -14499,7 +14499,7 @@ input:checked~.radio__label:after {
 }
 
 .burger-nav {
-    padding: 24px 0
+    padding: 12px 0
 }
 
 .burger-nav__item+.burger-nav__item {
@@ -15211,7 +15211,7 @@ input:checked~.radio__label:after {
         font-size: 16px
     }
     .burger-nav {
-        padding: 40px 0
+        /* padding: 40px 0 */
     }
     .burger-nav__item+.burger-nav__item {
         padding-top: 24px
@@ -15266,9 +15266,9 @@ input:checked~.radio__label:after {
         top: 48px
     }
     .slide-menu {
-        top: 128px;
+        top: 113px;
         height: calc(100vh - 152px);
-        height: calc(var(--vh, 1vh)*100 - 152px)
+        height: calc(var(--vh, 1vh)*100 - 100px)
     }
     .slide-menu__wrapper {
         padding-bottom: 32px
@@ -15633,11 +15633,11 @@ input:checked~.radio__label:after {
         margin: 32px 0 24px
     }
     .burger-nav {
-        padding-bottom: 0;
-        padding-top: 64px
+        /* padding-bottom: 0;
+        padding-top: 64px */
     }
     .burger-nav__list {
-        padding-left: 72px
+        /* padding-left: 72px */
     }
 }
 

@@ -3,9 +3,13 @@
 @media (min-width:1120px){
    .mainscreen{
     margin-top: -71px;
-   }
+   } .salon__phone{
+        padding-left: 80px;
+    }
 }
+
 @media (max-width:1117px){
+   
     .mainscreen{
         margin-top: -47px;
     }
@@ -13,6 +17,15 @@
 @media (min-width:1276px){
     .mainscreen{
      margin-top: 0;
+    }
+    .salon__phone{
+        padding-left: 250px;
+    }
+ }
+ @media (min-width:1580px){
+
+    .salon__phone{
+        padding-left: 483px;
     }
  }
 
@@ -22,6 +35,30 @@
     }
 
  }
+ /* @media (min-width:310px){
+   .slide-menu {
+       top:172px;
+   }
+
+ }
+ @media (min-width:353px){
+    .slide-menu {
+        top:152px;
+    }
+ 
+  }
+  @media (min-width:400px){
+    .slide-menu {
+        top:132px;
+    }
+ 
+  }
+  @media (max-width:767px){
+    .slide-menu {
+        top:112px;
+    }
+ 
+  } */
 .line-r {
     width: 1px;
     height: 26px;
@@ -15981,7 +16018,7 @@ screen and (-ms-high-contrast:active) {
 
 .slide-menu {
     position: fixed;
-    top: 104px;
+    /* top: 104px; */
     right: 0;
     left: 0;
     z-index: 50;
@@ -16493,7 +16530,7 @@ screen and (-ms-high-contrast:active) {
     }
     .salon__phone {
         padding-right: 40px;
-        padding-left: 440px;
+        /* padding-left: 440px; */
     }
     .salon__more {
         display: inline-block;
@@ -16566,7 +16603,7 @@ screen and (-ms-high-contrast:active) {
         top: 48px
     }
     .slide-menu {
-        top: 143px;
+        /* top: 143px; */
         /* height: calc(100vh - 152px);
         height: calc(var(--vh, 1vh)*100 - 152px) */
     }

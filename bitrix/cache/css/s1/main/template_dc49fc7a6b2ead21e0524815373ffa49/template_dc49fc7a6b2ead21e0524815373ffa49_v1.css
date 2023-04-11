@@ -14686,13 +14686,13 @@ input:checked~.radio__label:after {
 
 .slide-menu {
     position: fixed;
-    top: 104px;
+    /* top: 104px; */
     right: 0;
     left: 0;
     z-index: 50;
     overflow-y: auto;
     height: calc(100vh - 105px);
-    height: calc(var(--vh, 1vh)*100 - 105px)
+    height: calc(var(--vh, 1vh)*100 - 70px)
 }
 
 .slide-menu:after {
@@ -15265,9 +15265,9 @@ input:checked~.radio__label:after {
         top: 48px
     }
     .slide-menu {
-        top: 128px;
+        /* top: 128px; */
         height: calc(100vh - 152px);
-        height: calc(var(--vh, 1vh)*100 - 152px)
+        height: calc(var(--vh, 1vh)*100 - 80px)
     }
     .slide-menu__wrapper {
         padding-bottom: 32px
@@ -15611,7 +15611,7 @@ input:checked~.radio__label:after {
         color: #848388
     }
     .slide-menu {
-        top: 140px;
+        /* top: 140px; */
         height: calc(100vh - 144px);
         height: calc(var(--vh, 1vh)*100 - 144px)
     }

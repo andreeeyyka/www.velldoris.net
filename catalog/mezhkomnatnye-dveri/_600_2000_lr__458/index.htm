@@ -104,12 +104,12 @@
       <div class="header__menu-line">
         <div class="container">
           <div class="header__menu-wrapper"><button type="button" aria-label="Toggle menu"
-              class="btn header__burger header__burger--tablet"><span>Меню</span></button>
+              class="btn header__burger header__burger--tablet" onclick="burger()"><span>Меню</span></button>
             <div class="city header__city header__city--line header__city--mobile"><a href="#" class="city__link"><i
                   class="city__icon"><svg class="icon">
                     <use xlink:href="/local/templates/main/dist/sprite/icons.svg#ico_city"></use>
                   </svg></i> <span>Санкт-Петербург</span></a>  </div>
-            <nav class="header-menu header__menu header__menu_tablet">
+            <nav class="header-menu header__menu header__menu_tablet" onclick="burger()">
               <ul class="header-menu__list">
                 <li class="header-menu__item"><a href="../../index.htm" class="header-menu__link">Каталог</a>  
                 </li>
@@ -140,15 +140,15 @@
         <div class="slide-menu__wrapper">
           <div class="burger-menu" style="display:none;">
             <div class="container"> 
-              <form action="/search/" class="search__form burger-menu__search"><input type="search" name="q"
+              <!-- <form action="/search/" class="search__form burger-menu__search"><input type="search" name="q"
                   placeholder="Поиск по сайту" class="input input_search search__input"> <label class="label">Поиск по
                   сайту</label> <button type="button" class="btn search__close"></button> <button rel="nofollow"
-                  href="#" class="btn btn_accent search__btn-search">Найти</button></form>
-              <div class="user icons__item icons__item_person icons__item--mobile"><a rel="nofollow"
+                  href="#" class="btn btn_accent search__btn-search">Найти</button></form> -->
+              <!-- <div class="user icons__item icons__item_person icons__item--mobile"><a rel="nofollow"
                   href="https://dverihall.net/lichnyj-kabinet.html" class="user__link"><i class="user__icon"><svg
                       class="icon">
                       <use xlink:href="/local/templates/main/dist/sprite/icons.svg#ico_person"></use>
-                    </svg></i> <span class="user__label"></span></a></div>
+                    </svg></i> <span class="user__label"></span></a></div> -->
               <div itemscope="itemscope" itemtype="http://schema.org/Organization" class="salon burger-menu__salon">
                 <meta itemprop="name" content="Velldoris"> <span class="salon__title">Салоны города:</span> <span
                   itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress"
@@ -687,17 +687,17 @@
   <!-- End Google Tag Manager -->
 
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6HN27H" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6HN27H" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript> -->
   <!-- End Google Tag Manager (noscript) --> <!-- Yandex.Metrika counter -->
 
-  <noscript>
+  <!-- <noscript>
     <div>
       <img src="../../../watch/38036125?ut=noindex" style="position:absolute; left:-9999px;" alt="">
       <img src="../../../watch/88981859?ut=noindex" style="position:absolute; left:-9999px;" alt="">
       <img src="../../../watch/89633183?ut=noindex" style="position:absolute; left:-9999px;" alt="">
     </div>
-  </noscript>
+  </noscript> -->
   <!-- /Yandex.Metrika counter -->
 
 
@@ -737,7 +737,7 @@
 
   <!-- VK Pixel Code -->
 
-  <noscript><img src="../../../rtrg?p=VK-RTRG-486114-9t555" style="position:fixed; left:-999px;" alt=""></noscript>
+  <!-- <noscript><img src="../../../rtrg?p=VK-RTRG-486114-9t555" style="position:fixed; left:-999px;" alt=""></noscript> -->
   <!-- End VK Pixel Code -->
 
 
@@ -750,11 +750,11 @@
 
 
   <!-- Rating Mail.ru counter -->
-  <noscript>
+  <!-- <noscript>
     <div>
       <img src="../../../counter?id=3245479;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru">
     </div>
-  </noscript>
+  </noscript> -->
   <!-- //Rating Mail.ru counter -->
 
 
@@ -802,7 +802,7 @@
   <!-- BEGIN UIS INTEGRATION WITH ROISTAT -->
 
   <!-- END UIS INTEGRATION WITH ROISTAT -->
-  <script type="text/javascript"
+  <!-- <script type="text/javascript"
     src="../../../bitrix/cache/js/s1/main/template_19a0c2cf642b03b28ce4934a2d6a83f5/template_19a0c2cf642b03b28ce4934a2d6a83f5_v1.js?1676905203898164"></script>
   <script
     type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "bf4d4725322a11b75841f6625dcfbcb7"]); _ba.push(["host", "www.velldoris.net"]); (function () { var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true; ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ba, s); })();</script>
@@ -958,7 +958,8 @@
         }
       }
     })();
-  </script>
+  </script> -->
+  <script src="../../../main.js"></script>
 </body>
 
 </html>

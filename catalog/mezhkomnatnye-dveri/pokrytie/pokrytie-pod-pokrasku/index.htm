@@ -74,7 +74,8 @@
 							</span> <span class="salon__separator">,</span></span> <span class="salon__phone"><a
 								itemprop="telephone" href="tel:+998970002700">
 								(97) 000-27-00
-							</a></span> <a href="../../../../salons/index.htm" class="salon__more"></a> <span class="salon__more"></span>
+							</a></span> <a href="../../../../salons/index.htm" class="salon__more"></a> <span
+							class="salon__more"></span>
 					</div> <!---->
 					<div class="header__search header__search_desktop search" style="display:none;"><a
 							href="../../../../search/index.htm" class="search__link"><i><svg class="icon">
@@ -104,12 +105,12 @@
 			<div class="header__menu-line">
 				<div class="container">
 					<div class="header__menu-wrapper"><button type="button" aria-label="Toggle menu"
-							class="btn header__burger header__burger--tablet"><span>Меню</span></button>
+							class="btn header__burger header__burger--tablet" onclick="burger()"><span>Меню</span></button>
 						<div class="city header__city header__city--line header__city--mobile"><a href="#"
 								class="city__link"><i class="city__icon"><svg class="icon">
 										<use xlink:href="/local/templates/main/dist/sprite/icons.svg#ico_city"></use>
 									</svg></i> <span>Ташкент</span></a> <!----></div>
-						<nav class="header-menu header__menu header__menu_tablet">
+						<nav class="header-menu header__menu header__menu_tablet" onclick="burger">
 							<ul class="header-menu__list">
 								<li class="header-menu__item"><a href="../../../index.htm"
 										class="header-menu__link">Каталог</a> <!----></li>
@@ -129,7 +130,8 @@
 						</nav>
 						<div
 							class="phone header__phone header__phone--line header__phone--mobile header__phone--desktop">
-							<a href="tel:+998970002700" class="phone__link">(97) 000-27-00</a></div> <!----> <!---->
+							<a href="tel:+998970002700" class="phone__link">(97) 000-27-00</a>
+						</div> <!----> <!---->
 						<!-- <div class="callbacklink header__callback header__callback--desktop"><a rel="nofollow" href="#"
 								class="btn btn_block btn_bordered">Вызвать замерщика</a></div>
 						<div class="callbacklink header__callback header__callback--orange header__callback--tablet"><a
@@ -141,17 +143,18 @@
 				<div class="slide-menu__wrapper">
 					<div class="burger-menu" style="display:none;">
 						<div class="container"><!---->
-							<form action="/search/" class="search__form burger-menu__search"><input type="search"
+							<!-- <form action="/search/" class="search__form burger-menu__search"><input type="search"
 									name="q" placeholder="Поиск по сайту" class="input input_search search__input">
 								<label class="label">Поиск по сайту</label> <button type="button"
 									class="btn search__close"></button> <button rel="nofollow" href="#"
-									class="btn btn_accent search__btn-search">Найти</button></form>
-							<div class="user icons__item icons__item_person icons__item--mobile"><a rel="nofollow"
+									class="btn btn_accent search__btn-search">Найти</button>
+							</form> -->
+							<!-- <div class="user icons__item icons__item_person icons__item--mobile"><a rel="nofollow"
 									href="https://dverihall.net/lichnyj-kabinet.html" class="user__link"><i
 										class="user__icon"><svg class="icon">
 											<use xlink:href="/local/templates/main/dist/sprite/icons.svg#ico_person">
 											</use>
-										</svg></i> <span class="user__label"></span></a></div>
+										</svg></i> <span class="user__label"></span></a></div> -->
 							<div itemscope="itemscope" itemtype="http://schema.org/Organization"
 								class="salon burger-menu__salon">
 								<meta itemprop="name" content="Velldoris"> <span class="salon__title">Салоны
@@ -162,7 +165,8 @@
 									</span> <span class="salon__separator">,</span></span> <span class="salon__phone"><a
 										itemprop="telephone" href="tel:+998970002700">
 										(97) 000-27-00
-									</a></span> <a href="../../../../salons/index.htm" class="salon__more"></a> <span class="salon__more"></span>
+									</a></span> <a href="../../../../salons/index.htm" class="salon__more"></a> <span
+									class="salon__more"></span>
 							</div>
 							<nav class="burger-nav">
 								<ul class="burger-nav__list">
@@ -318,7 +322,8 @@
 							</span>
 							<div class="sort__list">
 								<div class="sort__item-current"><!----> <span class="sort__item-desc">Сначала </span>
-									<span class="sort__item-option">Новинки</span></div>
+									<span class="sort__item-option">Новинки</span>
+								</div>
 								<div class="sort__list-options">
 									<div class="sort__item"><a rel="nofollow" href="index-1.htm?sort=shows"
 											class="sort__item-link"><span class="sort__item-desc">Сначала </span> <span
@@ -375,7 +380,8 @@
 															<label for="filter_section_2267"
 																class="checkbox__label"><!---->
 																Новинка <span class="checkbox__count">0</span></label>
-															<!----></div><!---->
+															<!---->
+														</div><!---->
 														<div class="checkbox"><input name="filter_section_2443"
 																id="filter_section_2443" type="checkbox" value="Y"
 																class="visually-hidden"> <label
@@ -390,14 +396,16 @@
 															<label for="filter_section_2444"
 																class="checkbox__label"><!---->
 																Эксклюзив <span class="checkbox__count">0</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<div class="checkbox checkbox_empty"><input
 																name="filter_section_2458" id="filter_section_2458"
 																type="checkbox" value="Y" class="visually-hidden">
 															<label for="filter_section_2458"
 																class="checkbox__label"><!---->
 																Под заказ <span class="checkbox__count">0</span></label>
-															<!----></div><!----><!----><!----><!---->
+															<!---->
+														</div><!----><!----><!----><!---->
 													</div>
 												</div><!----><!---->
 												<div class="catalog-filter__item"><button type="button"
@@ -409,7 +417,8 @@
 																for="filter_section_1925"
 																class="checkbox__label"><!---->
 																Глухие <span class="checkbox__count">2</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<div class="checkbox checkbox_empty"><input
 																name="filter_section_1953" id="filter_section_1953"
 																type="checkbox" value="Y" class="visually-hidden">
@@ -440,7 +449,8 @@
 																	src="../../../../upload/resize_cache/iblock/e3c/600_600_1/e3c0c1643cccfcf538cc48acef3bc13b.png"
 																	alt="Светлый" class="checkbox__color">
 																Светлый <span class="checkbox__count">0</span></label>
-															<!----></div><!---->
+															<!---->
+														</div><!---->
 														<div class="checkbox checkbox_color checkbox_empty"><input
 																name="filter_section_1999" id="filter_section_1999"
 																type="checkbox" value="Y" class="visually-hidden">
@@ -449,7 +459,8 @@
 																	src="../../../../upload/resize_cache/iblock/d97/600_600_1/d97cf06ec21a83a812a4750caf976851.png"
 																	alt="Серый" class="checkbox__color">
 																Серый <span class="checkbox__count">0</span></label>
-															<!----></div><!----><!---->
+															<!---->
+														</div><!----><!---->
 														<div class="checkbox checkbox_color checkbox_empty"><input
 																name="filter_section_2000" id="filter_section_2000"
 																type="checkbox" value="Y" class="visually-hidden">
@@ -458,7 +469,8 @@
 																	src="../../../../upload/resize_cache/iblock/01a/600_600_1/01ab6f57f360768406b563f01c84e08d.png"
 																	alt="Тёмный" class="checkbox__color">
 																Тёмный <span class="checkbox__count">0</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
 														<div class="checkbox checkbox_color checkbox_empty"><input
 																name="filter_section_1996" id="filter_section_1996"
@@ -468,7 +480,8 @@
 																	src="../../../../upload/resize_cache/iblock/de4/600_600_1/de45f69f4d47cc278890c774d8ee56c5.png"
 																	alt="Белый" class="checkbox__color">
 																Белый <span class="checkbox__count">0</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<!----><!----><!----><!----><!----><!----><!----><!---->
 														<div class="checkbox checkbox_color checkbox_empty"><input
 																name="filter_section_1998" id="filter_section_1998"
@@ -478,7 +491,8 @@
 																	src="../../../../upload/resize_cache/iblock/1fa/600_600_1/1fa84f6bb6a0b636f0eacb9352dcdb56.png"
 																	alt="Древесный" class="checkbox__color">
 																Древесный <span class="checkbox__count">0</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
 													</div>
 												</div>
@@ -515,14 +529,16 @@
 															<label for="filter_section_1964"
 																class="checkbox__label"><!---->
 																Модерн <span class="checkbox__count">0</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<div class="checkbox checkbox_empty"><input
 																name="filter_section_1965" id="filter_section_1965"
 																type="checkbox" value="Y" class="visually-hidden">
 															<label for="filter_section_1965"
 																class="checkbox__label"><!---->
 																Хай-Тек <span class="checkbox__count">0</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<div class="checkbox checkbox_empty"><input
 																name="filter_section_1966" id="filter_section_1966"
 																type="checkbox" value="Y" class="visually-hidden">
@@ -542,7 +558,8 @@
 																for="filter_section_1969"
 																class="checkbox__label"><!---->
 																Экошпон <span class="checkbox__count">119</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<div class="checkbox"><input name="filter_section_1977"
 																id="filter_section_1977" type="checkbox" value="Y"
 																class="visually-hidden"> <label
@@ -557,21 +574,24 @@
 																for="filter_section_1978"
 																class="checkbox__label"><!---->
 																Eco flex <span class="checkbox__count">12</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<div class="checkbox"><input name="filter_section_1970"
 																id="filter_section_1970" type="checkbox" value="Y"
 																class="visually-hidden"> <label
 																for="filter_section_1970"
 																class="checkbox__label"><!---->
 																3D flex <span class="checkbox__count">5</span></label>
-															<!----></div><!---->
+															<!---->
+														</div><!---->
 														<div class="checkbox"><input name="filter_section_1972"
 																id="filter_section_1972" type="checkbox" value="Y"
 																class="visually-hidden"> <label
 																for="filter_section_1972"
 																class="checkbox__label"><!---->
 																Эмаль <span class="checkbox__count">36</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<div class="checkbox"><input name="filter_section_1979"
 																id="filter_section_1979" type="checkbox" value="Y"
 																checked="checked" class="visually-hidden"> <label
@@ -586,7 +606,8 @@
 																for="filter_section_1975"
 																class="checkbox__label"><!---->
 																Крашенные <span class="checkbox__count">1</span></label>
-															<!----></div><!---->
+															<!---->
+														</div><!---->
 													</div>
 												</div>
 												<div class="catalog-filter__item"><button type="button"
@@ -599,14 +620,16 @@
 															<label for="filter_section_2419"
 																class="checkbox__label"><!---->
 																Вителия <span class="checkbox__count">0</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<div class="checkbox checkbox_empty"><input
 																name="filter_section_2420" id="filter_section_2420"
 																type="checkbox" value="Y" class="visually-hidden">
 															<label for="filter_section_2420"
 																class="checkbox__label"><!---->
 																Олимпия <span class="checkbox__count">0</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
 													</div>
 												</div>
@@ -619,14 +642,16 @@
 																for="filter_section_2141"
 																class="checkbox__label"><!---->
 																Velldoris <span class="checkbox__count">2</span></label>
-															<!----></div>
+															<!---->
+														</div>
 														<div class="checkbox checkbox_empty"><input
 																name="filter_section_2142" id="filter_section_2142"
 																type="checkbox" value="Y" class="visually-hidden">
 															<label for="filter_section_2142"
 																class="checkbox__label"><!---->
 																Dverihall <span class="checkbox__count">0</span></label>
-															<!----></div>
+															<!---->
+														</div>
 													</div>
 												</div><!----><!----><!----><!----><!----> <button type="button"
 													class="btn btn_block catalog-filter__reset catalog-filter__reset_additional"><span>Дополнительные
@@ -675,7 +700,8 @@
 													class="product-card__status-picture"> <!----><img width="50"
 													src="../../../../upload/uf/27a/27ad6a980ee8d33d7936a58ee430974e.svg"
 													alt="Экологичные материалы" class="product-card__status-picture">
-												<!----></div>
+												<!---->
+											</div>
 										</a> <a
 											href="../../600_2000_lr_morelli_m1895_sn_kubica_k6360_38_2_4__3/index.htm"
 											class="h3 product-card__name">
@@ -731,7 +757,8 @@
 													class="product-card__status-picture"> <!----><img width="50"
 													src="../../../../upload/uf/27a/27ad6a980ee8d33d7936a58ee430974e.svg"
 													alt="Экологичные материалы" class="product-card__status-picture">
-												<!----></div>
+												<!---->
+											</div>
 										</a> <a
 											href="../../600_2000_r_morelli_m1895_sn_kubica_k6360_38_2_59_4_/index.htm"
 											class="h3 product-card__name">
@@ -759,7 +786,7 @@
 										</div>
 									</div>
 								</li>
-							</ul> 
+							</ul>
 							<section class="catalog-element-description">
 								<p><a href="../../../../upload/medialibrary/52d/52d2dc9fb1df21e842dcc3093daf0bb7.pdf"
 										target="_blank"><b>Система открывания дверей Invisible</b></a></p>
@@ -1116,26 +1143,26 @@
 								itemscope="itemscope" itemtype="http://schema.org/PostalAddress"
 								class="footer__address"><span itemprop="addressLocality">Санкт-Петербург</span></span>
 						</div> -->
-						<!-- <div class="footer__btns">
+					<!-- <div class="footer__btns">
 							<div class="callmeasurelink footer__callmeasure"><a rel="nofollow" href="#"
 									class="btn btn_block btn_bordered">Вызвать замерщика</a></div>
 							<div class="callbacklink footer__callback"><a rel="nofollow" href="#"
 									class="btn btn_block btn_bordered">Заказать звонок</a></div>
 						</div> -->
-					</div>
-					<div class="footer__bottom-line"><span class="footer__year"></span>
-						<div class="footer__copyright"><a href="//realweb.ru"><i><svg class="icon">
-										<use xlink:href="/local/templates/main/dist/sprite/icons.svg#ico_runway"></use>
-									</svg></i></a></div>
-					</div>
+				</div>
+				<div class="footer__bottom-line"><span class="footer__year"></span>
+					<div class="footer__copyright"><a href="//realweb.ru"><i><svg class="icon">
+									<use xlink:href="/local/templates/main/dist/sprite/icons.svg#ico_runway"></use>
+								</svg></i></a></div>
 				</div>
 			</div>
-		</div> <!---->
-		<div class="notifications notifications--top"></div>
-		<div class="notifications notifications--bottom"></div>
-		<div class="visually-hidden">
-			<div><!----></div>
 		</div>
+	</div> <!---->
+	<div class="notifications notifications--top"></div>
+	<div class="notifications notifications--bottom"></div>
+	<div class="visually-hidden">
+		<div><!----></div>
+	</div>
 	</div>
 
 
@@ -1154,17 +1181,17 @@
 	<!-- End Google Tag Manager -->
 
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6HN27H" height="0" width="0"
-			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6HN27H" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript> -->
 	<!-- End Google Tag Manager (noscript) --> <!-- Yandex.Metrika counter -->
 
-	<noscript>
+	<!-- <noscript>
 		<div>
 			<img src="../../../../watch/38036125?ut=noindex" style="position:absolute; left:-9999px;" alt="">
 			<img src="../../../../watch/88981859?ut=noindex" style="position:absolute; left:-9999px;" alt="">
 			<img src="../../../../watch/89633183?ut=noindex" style="position:absolute; left:-9999px;" alt="">
 		</div>
-	</noscript>
+	</noscript> -->
 	<!-- /Yandex.Metrika counter -->
 
 
@@ -1204,7 +1231,7 @@
 
 	<!-- VK Pixel Code -->
 
-	<noscript><img src="../../../../rtrg?p=VK-RTRG-486114-9t555" style="position:fixed; left:-999px;" alt=""></noscript>
+	<!-- <noscript><img src="../../../../rtrg?p=VK-RTRG-486114-9t555" style="position:fixed; left:-999px;" alt=""></noscript> -->
 	<!-- End VK Pixel Code -->
 
 
@@ -1217,12 +1244,12 @@
 
 
 	<!-- Rating Mail.ru counter -->
-	<noscript>
+	<!-- <noscript>
 		<div>
 			<img src="../../../../counter?id=3245479;js=na" style="border:0;position:absolute;left:-9999px;"
 				alt="Top.Mail.Ru">
 		</div>
-	</noscript>
+	</noscript> -->
 	<!-- //Rating Mail.ru counter -->
 
 
@@ -1270,7 +1297,7 @@
 	<!-- BEGIN UIS INTEGRATION WITH ROISTAT -->
 
 	<!-- END UIS INTEGRATION WITH ROISTAT -->
-	<script type="text/javascript"
+	<!-- <script type="text/javascript"
 		src="../../../../bitrix/cache/js/s1/main/template_19a0c2cf642b03b28ce4934a2d6a83f5/template_19a0c2cf642b03b28ce4934a2d6a83f5_v1.js?1676905203898164"></script>
 	<script
 		type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "bf4d4725322a11b75841f6625dcfbcb7"]); _ba.push(["host", "www.velldoris.net"]); (function () { var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true; ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ba, s); })();</script>
@@ -1426,7 +1453,8 @@
 				}
 			}
 		})();
-	</script>
+	</script> -->
+	<script src="../../../main.js"></script>
 </body>
 
 </html>

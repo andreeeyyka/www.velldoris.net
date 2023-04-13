@@ -75,7 +75,9 @@ function ss(){
     document.querySelector(".salons__balloon").style="z-index: 0;"
 }
 function ssactive( ){
-    document.querySelector(".salons__balloon").style="z-index: 1;"
+        document.querySelector(".salons__balloon").style="z-index: 1;"
+        document.querySelector(".salons__list").style = 'z-index: 0;'
+
 }
 
 function yofe(){
@@ -113,4 +115,16 @@ function pinagroup(){
         menuclic= false
         document.querySelector(".pinagroup").style = 'visibility: hidden;opacity: 0;height: 0;top: -100%; transition: .3s;'
     }
+}
+
+function geo(){
+
+if(!menuclic){
+    menuclic = true
+    document.querySelector(".salons__list").style = 'z-index: 2;'
+}else{
+    menuclic= false
+    document.querySelector(".salons__list").style = 'z-index: 0;'
+}
+
 }

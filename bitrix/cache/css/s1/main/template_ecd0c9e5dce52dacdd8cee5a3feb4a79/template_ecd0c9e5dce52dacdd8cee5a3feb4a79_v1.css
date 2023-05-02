@@ -17500,7 +17500,7 @@ a[href]:not[class]:not(.btn):active, a[href]:not[class]:not(.btn):focus, a[href]
     }
     .salons__filter {
         width: 42%;
-        max-height: 360px;
+        max-height: 455px;
         padding-right: 184px
     }
     .salons__filter-item-link {

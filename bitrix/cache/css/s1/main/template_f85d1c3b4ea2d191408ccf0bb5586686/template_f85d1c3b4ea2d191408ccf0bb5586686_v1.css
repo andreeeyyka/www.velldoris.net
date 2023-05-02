@@ -1,4 +1,7 @@
 /* Start:/local/templates/main/dist/styles/main.css?1675944036219184*/
+.catalog-section__items{
+    padding-left: 13px;
+}
 .line-r {
     width: 1px;
     height: 26px;

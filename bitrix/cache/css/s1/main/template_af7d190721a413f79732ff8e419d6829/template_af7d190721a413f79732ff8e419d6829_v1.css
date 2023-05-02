@@ -1,5 +1,10 @@
 /* Start:/local/templates/main/dist/styles/main.css?1675944036219184*/
 /* vedeo */
+@media(max-width:768px){
+    .promovideoslider {
+        margin-top: 150px;
+    }
+}
 @media(max-width:890px){
     .div-fws-ad{
         font-size: 12px;
@@ -11790,7 +11795,7 @@ video {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-height: 100vh
+    /* min-height: 100vh */
 }
 
 .main {

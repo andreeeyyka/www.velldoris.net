@@ -1,3 +1,62 @@
+
+.dudka {
+    position: absolute;
+    transition: 0.2s;
+    height: 63px;
+    width: 63px;
+    background-color: rgba(255, 166, 0, 0.704);
+    inset: auto auto 5% 3%;
+    position: fixed;
+    display: block;
+    z-index: 99;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+@media (min-width:570px){
+    .dudka{
+        height: 88px;
+        width: 88px;
+    }
+}
+@media (min-width:770px){
+    .dudka{
+        height: 100px;
+        width: 100px;
+    }
+}@media (min-width:1290px){
+    .dudka{
+        height: 125px;
+        width: 125px;
+    }
+}
+.dudka-img {
+    transition: 0.2s;
+    opacity: 1;
+}
+
+body {
+    position: relative;
+}
+
+.dudka:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.dudka-img:hover {
+    transform: rotate(360deg) scale(1.1);
+    transition: 0.2s;
+}
+
+.dudka:active {
+    background-color: rgb(255, 166, 0);
+    transition: 0.2s;
+}
+
+
 /* Start:/local/templates/main/dist/styles/main.css?1675944036219184*/
 .line-r {
     width: 1px;

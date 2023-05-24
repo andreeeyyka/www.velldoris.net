@@ -14688,7 +14688,7 @@ input:checked~.radio__label:after {
 
 .slide-menu {
     position: fixed;
-    top: 104px;
+    /* top: 104px; */
     right: 0;
     left: 0;
     z-index: 50;
@@ -15267,7 +15267,7 @@ input:checked~.radio__label:after {
         top: 48px
     }
     .slide-menu {
-        top: 128px;
+        /* top: 128px; */
         height: calc(100vh - 152px);
         height: calc(var(--vh, 1vh)*100 - 152px)
     }
@@ -15613,7 +15613,7 @@ input:checked~.radio__label:after {
         color: #848388
     }
     .slide-menu {
-        top: 190px;
+        /* top: 190px; */
         height: calc(100vh - 144px);
         height: calc(var(--vh, 1vh)*100 - 144px)
     }

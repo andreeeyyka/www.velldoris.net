@@ -17107,7 +17107,7 @@ screen and (-ms-high-contrast:active) {
     z-index: 50;
     overflow-y: auto;
     height: calc(100vh - 105px);
-    height: calc(var(--vh, 1vh)*100 - 105px)
+    height: calc(var(--vh, 1vh)*100 - 70px)
 }
 
 .slide-menu:after {
@@ -18236,7 +18236,7 @@ screen and (min-width:768px) and (-ms-high-contrast:none) {
     }
 
     .slide-menu {
-        top: 144px;
+        /* top: 144px; */
         height: calc(100vh - 144px);
         height: calc(var(--vh, 1vh)*100 - 144px)
     }

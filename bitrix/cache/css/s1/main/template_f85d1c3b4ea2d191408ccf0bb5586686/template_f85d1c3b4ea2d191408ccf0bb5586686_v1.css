@@ -1,5 +1,47 @@
 /* Start:/local/templates/main/dist/styles/main.css?1675944036219184*/
 
+/*            */
+.logo__link{
+    transition: 0.2s; 
+}
+.logo__link:hover{
+    transform: scale(1.1);
+    transition: 0.2s;  
+}
+
+.catalog-items__card:hover{
+    transform: scale(1.03);
+    transition: 0.2s; 
+}
+.catalog-items__card{
+    transition: 0.2s; 
+}
+.socials a:hover{
+transform: scale(1.1);
+transition: 0.2;
+}
+.socials-icons{
+    transition: 0.2;
+}
+
+.catalog-sections__item:hover{
+    transform: scale(1.1);
+    transition: 0.2s; 
+}
+.burger-nav__link:hover,.burger-nav__link:active{
+    transform: scale(1.1);
+    transition: 0.2s;
+    margin-left: 3px;
+}
+.header-menu__link:hover,.header-menu__link:active{
+   transform: scale(1.1);
+   transition: 0.2s;
+   margin-top: 5px;
+}
+.header-menu__link,.burger-nav__link,.catalog-sections__item{
+    transition: 0.2s;
+}
+
 
 .catalog-section__items{
     padding-left: 13px;
